@@ -96,8 +96,8 @@ if __name__ == "__main__":
 
     # KNN Without Max Heap
     KNN = KNN(k=25)
-    KNN.train(train_x.values, test_y.values)
-    y_pred = KNN.predict(train_x.values)
+    KNN.train(trainX.values, testY.values)
+    y_pred = KNN.predict(trainX.values)
 
     print("K: 25")
     print("Training Data Sample Size:", len(train_df))
